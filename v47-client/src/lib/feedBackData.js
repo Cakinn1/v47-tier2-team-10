@@ -33,7 +33,7 @@ export const TeamData = [
   {
     id: "feedback-1",
     content:
-      "Your platform has revolutionized the way I manage tasks and stay organized. It's not just a tool; it's my personal productivity companion.",
+      "I am a passionate programmer driven by a love for problem-solving and creativity. I dive into coding because it allows me to bring ideas to life and make a tangible impact in the digital world.",
     name: "Anthony Cakin", 
     title: "Frontend Developer",
     img: cakinImg,
@@ -47,7 +47,7 @@ export const TeamData = [
   {
     id: "feedback-2",
     content:
-      "I've tried various productivity apps, but yours stands out. It simplifies my workflow, making everyday tasks a breeze to manage.",
+      "I am a person who is passionate about problem solving and ready to commit to my team. I like to provide high-quality services through coding. In a world of ever-changing world, a new language is always welcome.",
     name: "Skylar Park",
     title: "Frontend Developer",
     img: skylarImg,
@@ -60,7 +60,7 @@ export const TeamData = [
   {
     id: "feedback-3",
     content:
-      "Being organized has never been this easy. Your platform has become an integral part of my daily routine, helping me achieve more with less effort.",
+      "I am dedicated to solving problems and envisioning a brighter future for both today's and future generations through the development of high-quality software solutions.",
     name: "Avazbek",
     title: "Frontend Developer",
     img: avazImg,
@@ -74,7 +74,7 @@ export const TeamData = [
   {
     id: "feedback-3",
     content:
-      "Being organized has never been this easy. Your platform has become an integral part of my daily routine, helping me achieve more with less effort.",
+      "I enjoy coding because it's fun to think of something and then create it. It's fun to puzzle out logic, like a riddle. Let's create something amazing together!             ",
     name: "Jess",
     title: "Frontend Developer",
     img: jessImg,

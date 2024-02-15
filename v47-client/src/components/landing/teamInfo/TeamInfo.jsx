@@ -1,10 +1,25 @@
-import React from "react";
+import {useEffect} from "react";
 import { TeamData } from "../../../lib/feedBackData";
 import MemberInfo from "./MemberInfo";
+import Aos from "aos";
+
+
 
 const TeamInfo = () => {
+
+
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
-    <section className="py-6 flex justify-center items-center flex-col relative">
+    <section 
+    className="py-6 flex justify-center items-center flex-col relative"
+     data-aos="fade-zoom-in"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="600"
+    >
       <div className="w-full flex justify-end items-center flex-col sm:mb-16 mb-6 relative z-[1]">
         <h2 className="text-3xl lg:text-4xl text-gray-800  dark:text-gray-200">
           Our <span className="font-bold">Chingu</span> Team
