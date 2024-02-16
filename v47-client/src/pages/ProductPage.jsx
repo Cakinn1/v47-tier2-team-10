@@ -23,7 +23,7 @@ export default function ProductPage() {
         setIsLoading(false);
       } catch (error) {
         setIsLoading(false);
-        console.error("Error Fetching", error);
+        console.error("Error Fetching data", error);
       }
     };
     fetchProductData();

@@ -16,7 +16,7 @@ Anthony
 - change firebase over and add stripe into the data base
 - make dark mode work on everything
 - make product page responsive ('tabs')
-- add a way to add days, choose column aswell in the add new task modal
+
 
 
 anthony bug collecting/ui/bugs/tasks changes completed:
@@ -34,6 +34,7 @@ anthony bug collecting/ui/bugs/tasks changes completed:
 - project task click event
 - make show its possible to edit the project task click event
 - fixed width on login and signup
+- add a way to add days, choose column aswell in the add new task modal
 
 
 
@@ -46,6 +47,7 @@ bug:
 - modals overfow are not set to hiddne when opened (all modals)
 - z-index of left panel is higher than modals, needs to be lowered when modal is open
 - left panel burger menu has error when opened, (needs background as fixed)
+- nav needs a z index higher than project task
 
 
 
