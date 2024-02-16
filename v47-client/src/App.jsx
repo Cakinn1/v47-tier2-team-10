@@ -15,8 +15,8 @@ import IsLoadingContext from "./context/IsLoadingContext";
 Anthony
 - change firebase over and add stripe into the data base
 - make dark mode work on everything
-- make product page responsive ('tabs')
-
+ make product page responsive ('tabs')
+- add a way to add days, choose column aswell in the add new task modal
 
 
 anthony bug collecting/ui/bugs/tasks changes completed:
@@ -33,8 +33,6 @@ anthony bug collecting/ui/bugs/tasks changes completed:
 - github link
 - project task click event
 - make show its possible to edit the project task click event
-- fixed width on login and signup
-- add a way to add days, choose column aswell in the add new task modal
 
 
 
