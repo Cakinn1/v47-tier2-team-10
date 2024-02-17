@@ -23,3 +23,4 @@ export { loadCheckout };
 export default payments;
 
 // need to install stripe payments on firebase/firestore
+// 
