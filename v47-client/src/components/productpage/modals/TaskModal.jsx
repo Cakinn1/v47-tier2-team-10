@@ -59,7 +59,7 @@ export default function TaskModal({
     <div className="fixed px-12 mdpx-12 top-1/2  left-1/2 w-[100vw] h-[100vh] bg-black bg-opacity-60 z-50 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center">
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-[500px] flex flex-col  space-y-4 rounded-md bg-white cursor-auto"
+        className="w-[500px] dark:bg-black flex flex-col  space-y-4 rounded-md bg-white cursor-auto"
       >
         <div className="p-4 pb-0 ml-auto">
           <IoIosClose

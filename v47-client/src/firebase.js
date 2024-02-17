@@ -1,21 +1,19 @@
-// Import the functions you need from the SDKs you need
-
 import { initializeApp } from "firebase/app";
-import { getDatabase } from 'firebase/database';
+import { getAuth } from "firebase/auth";
+import { getDatabase } from "firebase/database";
+import { getFirestore } from "firebase/firestore";
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyASpMTTkiFYeFb0DlvW4JieANVRYgx4J5o",
-  authDomain: "v47login.firebaseapp.com",
-  databaseURL: "https://v47login-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "v47login",
-  storageBucket: "v47login.appspot.com",
-  messagingSenderId: "332628734394",
-  appId: "1:332628734394:web:3d8cdfe499fd97cc4b6d83",
-  measurementId: "G-3Y4LKMBXX1"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId:process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getDatabase(app);
 
-export default app;
+export const auth = getAuth(app);
+export const db = getFirestore(app);

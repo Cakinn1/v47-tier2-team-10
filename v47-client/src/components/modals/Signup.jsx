@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../firebase";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -16,16 +17,12 @@ const Signup = () => {
         return;
       }
 
-      const auth = getAuth();
-
       try {
         await createUserWithEmailAndPassword(auth, email, password);
         setError(null);
         setSuccessMessage(
           "Signup successfully! Now, Go back to our main page and log in as our new member<3"
         );
-        // setModalOpen(false);
-        // console.log('Signup successfully!');
       } catch (createError) {
         setError("Signup failed. Please try again.");
         console.error("Signup failed:", createError);

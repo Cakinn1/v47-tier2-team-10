@@ -34,6 +34,11 @@ export default function TaskFlow() {
             className="md:h-[500px] md:w-[700px]"
           />
         </figure>
+
+        <>
+        
+        
+        </>
       </div>
     </div>
   );

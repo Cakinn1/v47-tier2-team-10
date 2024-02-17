@@ -43,6 +43,7 @@ bug:
 - modals overfow are not set to hidden when opened (all modals)
 - left panel burger menu has error when opened, (needs background as fixed)
 - make form in add task/edit task work with enter key
+- darkmode is currently not working for modals
 
 
 UI needs to get fixed:
